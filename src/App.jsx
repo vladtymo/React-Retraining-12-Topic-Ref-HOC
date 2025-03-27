@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ProductList from './components/ProductList'
 import UserList from './components/UserList'
+import RefExample from './components/RefExample'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <RefExample />
       <hr />
       <UserList items={['Alice', 'Bob', 'Charlie']} />
       <ProductList items={['Apple', 'Mango', 'Banana', 'Watermelon']} />
